@@ -3,7 +3,7 @@
 # Boots an iPhone simulator, opens every screen via the -launchTab argument, saves a screenshot of each
 # and exits non-zero if the app is not running after it should have settled (i.e. it crashed).
 set -uo pipefail
-APP="$1"; OUT="$2"; BUNDLE=com.hostus300.rumbletube
+APP="$1"; OUT="$2"; BUNDLE=com.spartanshell.rumbletube
 mkdir -p "$OUT"
 
 TYPE=$(xcrun simctl list devicetypes | grep -oE 'com\.apple\.CoreSimulator\.SimDeviceType\.iPhone-[0-9]+-Pro\b' | sort -V | tail -1)

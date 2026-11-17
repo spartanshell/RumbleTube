@@ -9,7 +9,7 @@ import WebKit
 @MainActor
 final class AccountStore: ObservableObject {
     static let shared = AccountStore()
-    static let refreshTaskID = "com.hostus300.rumbletube.refresh"
+    static let refreshTaskID = "com.spartanshell.rumbletube.refresh"
 
     @Published private(set) var loggedIn = false
     @Published private(set) var username: String?

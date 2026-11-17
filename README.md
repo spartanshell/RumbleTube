@@ -1,6 +1,6 @@
 # RumbleTube
 
-[**⬇︎ Download the latest IPA**](https://github.com/hostus300-ux/RumbleTube/releases/download/latest/RumbleTube.ipa) · current version 0.15.0
+[**⬇︎ Download the latest IPA**](https://github.com/spartanshell/RumbleTube/releases/download/latest/RumbleTube.ipa) · current version 0.15.0
 
 An unofficial iPhone client for Rumble that works like the YouTube app, with **RumbleSkip** (SponsorBlock-style skipping) built in. On your home screen it shows up as **Rumble**.
 
@@ -93,7 +93,7 @@ An unofficial iPhone client for Rumble that works like the YouTube app, with **R
 
 Every push to `main` builds an unsigned `RumbleTube.ipa` with Xcode 26 on GitHub's macOS build machines:
 
-1. On your phone, tap **[Download RumbleTube.ipa](https://github.com/hostus300-ux/RumbleTube/releases/download/latest/RumbleTube.ipa)**. You can also open [Releases → RumbleTube (latest build)](https://github.com/hostus300-ux/RumbleTube/releases/tag/latest) and download it there.
+1. On your phone, tap **[Download RumbleTube.ipa](https://github.com/spartanshell/RumbleTube/releases/download/latest/RumbleTube.ipa)**. You can also open [Releases → RumbleTube (latest build)](https://github.com/spartanshell/RumbleTube/releases/tag/latest) and download it there.
 2. Install it with AltStore, SideStore, Sideloadly, TrollStore or a similar tool. The tool signs it with your Apple ID.
 3. If you used a free Apple ID, refresh it every 7 days.
 

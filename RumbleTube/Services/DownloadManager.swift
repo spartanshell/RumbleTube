@@ -7,7 +7,7 @@ import UIKit
 @MainActor
 final class DownloadManager: NSObject, ObservableObject {
     static let shared = DownloadManager()
-    static let sessionID = "com.hostus300.rumbletube.downloads"
+    static let sessionID = "com.spartanshell.rumbletube.downloads"
 
     @Published private(set) var records: [DownloadRecord] = []
     /// Active downloads: video id → 0…1

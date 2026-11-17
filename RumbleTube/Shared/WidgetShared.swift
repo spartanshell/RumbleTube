@@ -5,7 +5,7 @@ import ActivityKit
 
 /// Data the app hands to its widgets through the shared App Group container.
 enum WidgetShared {
-    static let appGroup = "group.com.hostus300.rumbletube"
+    static let appGroup = "group.com.spartanshell.rumbletube"
     static let fileName = "widget-snapshot.json"
 
     static var url: URL? {
